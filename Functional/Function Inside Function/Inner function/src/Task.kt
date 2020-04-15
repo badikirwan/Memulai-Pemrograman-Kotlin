@@ -11,3 +11,8 @@ fun sum(valueA: Int, valueB: Int, valueC: Int): Int {
 
     return valueA + valueB
 }
+
+fun main() {
+    val sumValue = sum(10, 20, 30)
+    println("Sum value is $sumValue")
+}
